@@ -2,99 +2,330 @@
 <html lang="en">
 
 <head>
-    <title>Ristorante Con Fusion</title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Pastel Casket</title>
 </head>
 
 <body>
-
-    <header>
-        <div>
-            <div>
-                <div>
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+    <nav class="font navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <a class="navbar-brand" style="padding: 2px; border: 1px solid floralwhite;" href="#">Pastel Casket</a>
+           <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"> <a class="nav-link"  href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./menu.html"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                </ul> 
+           </div>           
+        </div>
+    </nav>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-2 align-self-center">
+                    <img src="img/logo.png" class="img-fluid align">
                 </div>
-                <div>
+                <div class="col-12 col-sm-8 font align-self-center">
+                    <p>We provide Quirky Jewellery @ affordable prices. We have a varied collection ranging from Jewellery to other accessories such as scrunchies, resin rings and many more...<br>We also provide vast range of customization as per the requirement of our customers.</p>
                 </div>
+                
             </div>
         </div>
     </header>
 
-    <div>
-        <div>
-            <div>
-                <h3>Our Lipsmacking Culinary Creations</h3>
+    <div class="container">
+        <br>
+        <div class="row font justify-content-center">
+            <h1>RAKSHABANDHAN SPECIAL</h1>
+        </div>
+        <div class="row row-content align-items-center"> 
+                <div class="col-12 col-sm-10 offset-sm-1">
+                    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active C1">
+                                <img class="d-block img-fluid"
+                                    src="img/RAKHI_A.jpg" alt="">
+                            </div>
+                            <div class="carousel-item C1">
+                                <img class="d-block img-fluid"
+                                    src="img/RAKHI_B.jpg" alt="">
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#mycarousel" data-slide-to="1"></li>
+                        </ol>
+                        <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <br>
+                    <div class="row font justify-content-center">
+                        <h1><span class="badge badge-secondary">COMING SOON!</span></h1>
+                    </div> 
+                </div>   
+        </div>
+        <br>
+        <div class="row font justify-content-center">
+            <h1>BESTSELLERS</h1>
+        </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4">
+                <div id="mycarousel_1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active C2">
+                            <img class="d-block img-fluid"
+                                src="img/evileye_a.png" alt="">
+                        </div>
+                        <div class="carousel-item C2">
+                            <img class="d-block img-fluid"
+                                src="img/evileye_b.png" alt="">
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel_1" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel_1" data-slide-to="1"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel_1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel_1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                <br>
+                <div class="row font justify-content-center">
+                    <h4>Evil Eye Bracelet</h4>
+                </div>
             </div>
-            <div>
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+            <div class="col-12 col-sm-4">
+                <div id="mycarousel_2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active C2">
+                            <img class="d-block img-fluid"
+                                src="img/bookmark_a.png" alt="">
+                        </div>
+                        <div class="carousel-item C2">
+                            <img class="d-block img-fluid"
+                                src="img/bookmark_b.png" alt="">
+                        </div>
+                        <div class="carousel-item C2">
+                            <img class="d-block img-fluid"
+                                src="img/bookmark_c.png" alt="">
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel_2" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel_2" data-slide-to="1"></li>
+                        <li data-target="#mycarousel_2" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel_2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel_2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                <br>
+                <div class="row font justify-content-center">
+                    <h4>Bookmark</h4>
+                </div>                
+            </div>
+            <div class="col-12 col-sm-4">
+                <div id="mycarousel_3" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active C2">
+                            <img class="d-block img-fluid"
+                                src="img/resinFrame_a.png" alt="">
+                        </div>
+                        <div class="carousel-item C2">
+                            <img class="d-block img-fluid"
+                                src="img/resinFrame_b.png" alt="">
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel_3" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel_3" data-slide-to="1"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel_3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel_3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                <br> 
+                <div class="row font justify-content-center">
+                    <h4>Resin Frame</h4>
+                </div>               
             </div>
         </div>
 
-
-        <div>
-            <div>
-                <h3>This Month's Promotions</h3>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4">
+              <div class="embed-responsive embed-responsive-1by1">
+                <iframe class="embed-responsive-item" src="./VID-20220105-WA0045.mp4" allowfullscreen></iframe>
+              </div>
             </div>
-            <div>
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            <div class="col-12 col-sm-4">
+                <h1 style="text-align: center;padding: 2px; border: 5px solid black;">CUSTOMER REVIEWS</h1>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div id="mycarousel_4" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid"
+                                src="img/rev-1.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="img/rev-2.jpg" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid"
+                                src="img/rev-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel_4" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel_4" data-slide-to="1"></li>
+                        <li data-target="#mycarousel_4" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel_4" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel_4" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>               
             </div>
         </div>
 
-        <div>
-            <div>
-                <h3>Meet our Culinary Specialists</h3>
+        <div class="row row-content align-items-center">
+            <div class="col-12">
+                <h3>Have a Query? Kindly fill the form given below!</h3>
+                <br>
+             </div>
+        <div class="col-12 col-md-9">
+        <form class="font ">
+            <div class="form-group row">
+                <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                </div>
             </div>
-            <div>
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+            <div class="form-group row">
+                <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                </div>
             </div>
+            <div class="form-group row">
+                <label for="telnum" class="col-12 col-md-2 col-form-label">Contact</label>
+                <div class="col-5 col-md-3">
+                    <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
+                </div>
+                <div class="col-7 col-md-7">
+                    <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                <div class="col-md-10">
+                    <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-6 offset-md-2">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                        <label class="form-check-label" for="approve">
+                            <strong>May we contact you?</strong>
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-md-1">
+                    <select class="form-control">
+                        <option>Tel.</option>
+                        <option>Email</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="feedback" class="col-md-2 col-form-label">Your Query</label>
+                <div class="col-md-10">
+                    <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-md-2 col-md-10">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
+        </div>
         </div>
     </div>
 
-    <footer>
-        <div>
-            <div>             
-                <div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="font col-2 col-sm-1">
                     <h5>Links</h5>
-                    <ul>
+                    <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="col-3 col-sm-8 align-items-center">
+
+                </div>
+                <div class="font col-7 col-sm-3" style="text-align:right">
                     <h5>Our Address</h5>
                     <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                        Industrial area, Rani bazar<br>
+                        Bikaner, Rajasthan<br>
+                        INDIA<br>
+                        <br>
+		              <i class="fa fa-phone fa-lg"></i> + <i class="fa fa-whatsapp fa-lg"></i> : +91 8005525779 <br>
 		           </address>
-                </div>
-                <div>
-                    <div>
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
-                    </div>
-                </div>
+                </div>    
+            </div>
+           <br>
+           <div class="row justify-content-center">
+            <div class="text-center">
+                <a class ="btn btn-social-icon" href="https://www.instagram.com/pastelcasket/?hl=en"><i class="fa fa-instagram fa-lg"></i></a>
+                <a class ="btn btn-social-icon" href="mailto:Pastelcasket.in@gmail.com"><i class="fa fa-envelope-o"></i></a>
+            </div>  
            </div>
-           <div>             
-                <div>
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+           <br>
+           <div class="row justify-content-center">         
+                <div class="font col-auto">
+                    <p>© Copyright 2021 Pastel Casket</p>
                 </div>
            </div>
         </div>
     </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
